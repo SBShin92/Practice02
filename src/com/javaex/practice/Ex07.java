@@ -33,7 +33,7 @@ public class Ex07 {
 			System.out.println("중학생/3000원 입니다.");
 		else if (num <= 19)
 			System.out.println("고등학생/4000원 입니다.");
-		else if (num >= 20)
+		else
 			System.out.println("성인/5000원 입니다.");
 			
 		sc.close();

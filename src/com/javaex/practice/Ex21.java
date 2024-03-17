@@ -11,6 +11,7 @@ public class Ex21 {
 		int num = sc.nextInt();
 		if (num == 0) {
 			System.out.println("잘못된 사번입니다.");
+			sc.close();
 			return ;
 		}
 		int teamNum = num % 3;

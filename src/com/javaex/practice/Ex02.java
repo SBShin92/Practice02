@@ -1,22 +1,4 @@
 package com.javaex.practice;
-
-public class Ex02 {
-
-	public static void main(String[] args) {
-		String str = new String();
-		boolean bool = true;
-		float f = 3.14F;
-		
-		switch (f) {
-		case 3.14F: {
-			System.out.println();
-		}
-		default:
-			throw new IllegalArgumentException("Unexpected value: " + str);
-		}			
-	}
-
-}
 /*
 [Ex02.java]
 다음 중 switch 문에서 조건식에 넣을 수 있는 데이터 타입은?
@@ -32,7 +14,27 @@ public class Ex02 {
 
 정답:
 
-전부 다~ 올 수 있다.
+2, 3, 4, 5, 9번
+char, byte, short, int, String은 올 수 있다.
 
 
 */
+
+public class Ex02 {
+
+//	public static void main(String[] args) {
+//		String str = new String();
+//		String bool = "a";
+//		double val  = 4;
+//		
+//		switch (bool) {
+//		case "a": {
+//			System.out.println("good");
+//			break ;
+//		}
+//		default:
+//			break ;
+//		}			
+//	}
+
+}

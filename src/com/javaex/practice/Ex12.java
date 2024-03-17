@@ -20,22 +20,13 @@ public class Ex12 {
 		int num3 = sc.nextInt();
 		int min = 0;
 		
-		if (num1 >= num2) {
-			if (num1 > num3 && num2 > num3)
-				min = num3;
-			else
-				min = num2;
-		} else if (num2 >= num3) {
-			if (num3 > num1 && num2 > num1)
-				min = num1;
-			else
-				min = num3;	
-		} else if (num3 >= num1) {
-			if (num3 > num2 && num1 > num2)
-				min = num2;
-			else
-				min = num1;				
-		}
+		if (num1 <= num2)
+			min = num1;
+		else
+			min = num2;
+		
+		if (min > num3)
+			min = num3;
 		
 		System.out.println("가장 작은 수는 " + min + " 입니다.");
 		

@@ -12,7 +12,7 @@ public class Ex18 {
 		String alp = sc.nextLine();
 		
 		switch (alp) {
-		case "a":
+		case "a": // intentional fallthrough
 		case "e":
 		case "i":
 		case "o":
